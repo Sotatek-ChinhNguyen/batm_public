@@ -41,6 +41,7 @@ public class CoinGeckoRateSource implements IRateSource {
         // from https://api.coingecko.com/api/v3/coins/list
         CRYPTOCURRENCIES.put(CryptoCurrency.ANON.getCode(), "anon");
         CRYPTOCURRENCIES.put(CryptoCurrency.ANT.getCode(), "aragon");
+        CRYPTOCURRENCIES.put(CryptoCurrency.APE.getCode(), "apecoin");
         CRYPTOCURRENCIES.put(CryptoCurrency.BAT.getCode(), "basic-attention-token");
         CRYPTOCURRENCIES.put(CryptoCurrency.BCH.getCode(), "bitcoin-cash");
         CRYPTOCURRENCIES.put(CryptoCurrency.BNB.getCode(), "binancecoin");

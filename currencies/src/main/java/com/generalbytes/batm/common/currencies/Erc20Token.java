@@ -6,7 +6,8 @@ import java.util.Map;
 
 public enum Erc20Token {
     USDT(CryptoCurrency.USDT, 6, "0xdAC17F958D2ee523a2206206994597C13D831ec7"),
-    DAI(CryptoCurrency.DAI, 18, "0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359"), // SAI stable coin
+    DAI(CryptoCurrency.DAI, 18, "0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359"),
+    APE(CryptoCurrency.APE, 18, "0x4d224452801ACEd8B2F0aebE155379bb5D594381"), // SAI stable coin
     ;
 
     /**

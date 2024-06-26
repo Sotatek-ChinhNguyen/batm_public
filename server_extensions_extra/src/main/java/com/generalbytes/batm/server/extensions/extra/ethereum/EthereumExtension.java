@@ -25,6 +25,7 @@ import com.generalbytes.batm.server.extensions.ICryptoCurrencyDefinition;
 import com.generalbytes.batm.server.extensions.IRateSource;
 import com.generalbytes.batm.server.extensions.IWallet;
 import com.generalbytes.batm.server.extensions.extra.ethereum.erc20.ERC20Wallet;
+import com.generalbytes.batm.server.extensions.extra.ethereum.erc20.ape.ApeDefinition;
 import com.generalbytes.batm.server.extensions.extra.ethereum.erc20.bizz.BizzDefinition;
 import com.generalbytes.batm.server.extensions.extra.ethereum.erc20.dai.DaiDefinition;
 import com.generalbytes.batm.server.extensions.extra.ethereum.sources.stasis.StasisTickerRateSource;
@@ -42,6 +43,7 @@ public class EthereumExtension extends AbstractExtension{
     private static final Set<ICryptoCurrencyDefinition> cryptoCurrencyDefinitions = ImmutableSet.of(
         new DaiDefinition(),
         new EthDefinition(),
+        new ApeDefinition(),
         new BizzDefinition(),
         new UsdtDefinition(),
         new UsdcDefinition());
@@ -60,6 +62,7 @@ public class EthereumExtension extends AbstractExtension{
         result.add(CryptoCurrency.REP.getCode());
         result.add(CryptoCurrency.MKR.getCode());
         result.add(CryptoCurrency.DAI.getCode());
+        result.add(CryptoCurrency.APE.getCode());
         result.add(CryptoCurrency.BIZZ.getCode());
         result.add(CryptoCurrency.BTBS.getCode());
         result.add(CryptoCurrency.GQ.getCode());

@@ -39,6 +39,7 @@ public enum CryptoCurrency {
     ANON("ANON"),
     AQUA("Aquachain"),
     ANT("Aragon Network Token"),
+    APE("ApeCoin"),
     BAT("Basic Attention Token"),
     BCH("Bitcoin Cash"),
     BNB("BinanceCoin"),

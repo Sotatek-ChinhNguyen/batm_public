@@ -41,6 +41,7 @@ public class CoinPaprikaRateSource implements IRateSource {
         // from https://api.coinpaprika.com/v1/coins
         CRYPTOCURRENCIES.put(CryptoCurrency.ANON.getCode(), "anon-anon");
         CRYPTOCURRENCIES.put(CryptoCurrency.ANT.getCode(), "ant-aragon");
+        CRYPTOCURRENCIES.put(CryptoCurrency.APE.getCode(), "ape-apecoin");
         CRYPTOCURRENCIES.put(CryptoCurrency.BAT.getCode(), "bat-basic-attention-token");
         CRYPTOCURRENCIES.put(CryptoCurrency.BAY.getCode(), "bay-bitbay");
         CRYPTOCURRENCIES.put(CryptoCurrency.BCH.getCode(), "bch-bitcoin-cash");

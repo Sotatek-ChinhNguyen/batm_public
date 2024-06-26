@@ -561,6 +561,7 @@
             <param name="fiatcurrency" />
             <cryptocurrency>ANON</cryptocurrency>
             <cryptocurrency>ANT</cryptocurrency>
+            <cryptocurrency>APE</cryptocurrency>
             <cryptocurrency>BAT</cryptocurrency>
             <cryptocurrency>BCH</cryptocurrency>
             <cryptocurrency>BNB</cryptocurrency>
@@ -630,6 +631,7 @@
             <cryptocurrency>ANON</cryptocurrency>
             <cryptocurrency>ANON</cryptocurrency>
             <cryptocurrency>ANT</cryptocurrency>
+            <cryptocurrency>APE</cryptocurrency>
             <cryptocurrency>BAT</cryptocurrency>
             <cryptocurrency>BAY</cryptocurrency>
             <cryptocurrency>BCH</cryptocurrency>
